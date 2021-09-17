@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
     A higher-order function is on that accepts another function as a parameter.
 
 3. Explain what a closure is.
-    Closure is a function that can access the variables from the place it was defined, regardless of where it is executed later.
+    Closure is a function that can access the variables from the place it was defined, regardless of where it is executed later. Often looks like pulling a variable from outside the function's scope OR like an inner function.
 
 4. Describe the four principles of the 'this' keyword.
     1. Window Binding - if you do this, you're messing up
@@ -44,7 +44,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Why do we need super() in an extended class?
     super(arg) calls the parent constructor - it's how we get the variables and functions to inherit.
-    
+
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
