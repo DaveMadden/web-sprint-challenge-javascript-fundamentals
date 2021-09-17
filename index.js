@@ -64,7 +64,7 @@ const zooAnimals = [
     data.forEach(x => displayNames.push(`name: ${x.animal_name}, scientific: ${x.scientific_name}`));
     return displayNames;
   }
-  console.log(animalNames(zooAnimals));
+  // console.log(animalNames(zooAnimals));
 
   /* 🦁🦁🦁 Request 2: .map() 🦁🦁🦁
   The zoo needs a list of all their animal's names converted to lower case. 
@@ -93,9 +93,10 @@ const zooAnimals = [
   Remember the reduce method takes two arguments: a callback (which itself takes two args - the accumulator and the item), and an initial value for the count.
   */
 
-  function USApop(/*Your Code Here*/){
-    /*Your Code Here*/
+  function USApop(data){
+    return data.reduce((total, item) => total + item.population, 0);
   }
+  // console.log(USApop(zooAnimals));
   
   
   // 🦁🦁🦁 Callbacks 🦁🦁🦁  
